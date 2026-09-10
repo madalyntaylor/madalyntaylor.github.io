@@ -41,3 +41,185 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* ============================================================
+   DARK THEME OVERRIDES
+   Paste this whole block at the VERY BOTTOM of
+   assets/css/main.scss  (after everything else in that file).
+   ------------------------------------------------------------
+   To make text pure white:  replace every #f0f0f0 with #fff
+   For a softer background:  replace #000 with #121212
+   ============================================================ */
+
+/* ---- Base page ---- */
+body {
+  background-color: #000;
+  color: #f0f0f0;
+}
+
+/* ---- Content text & headings ---- */
+.page__content,
+.page__content p,
+.page__content li,
+.page__content dl,
+.page__title,
+.archive__item-excerpt,
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f0f0;
+}
+
+/* ---- Links ---- */
+a,
+.page__content a {
+  color: #7ec8e3;
+}
+a:hover,
+a:focus,
+.page__content a:hover {
+  color: #aadcef;
+}
+
+/* ---- Top navigation / masthead ---- */
+.masthead {
+  background-color: #000;
+  border-bottom: 1px solid #333;
+}
+.greedy-nav {
+  background-color: #000;
+}
+.greedy-nav a {
+  color: #f0f0f0;
+}
+.greedy-nav .visible-links a:before {
+  background: #7ec8e3;   /* the animated hover underline */
+}
+.greedy-nav__toggle {
+  color: #f0f0f0;
+}
+.greedy-nav .hidden-links {
+  background: #1a1a1a;
+  border: 1px solid #333;
+}
+.greedy-nav .hidden-links a {
+  color: #f0f0f0;
+}
+.greedy-nav .hidden-links a:hover {
+  background: #333;
+  color: #fff;
+}
+.site-title,
+.masthead__inner-wrap .site-title {
+  color: #f0f0f0;
+}
+
+/* ---- Sidebar / author profile ---- */
+.author__name {
+  color: #f0f0f0;
+}
+.author__bio {
+  color: #cccccc;
+}
+.author__urls-wrapper .author__urls li,
+.author__urls.social-icons li {
+  color: #f0f0f0;
+}
+.author__urls.social-icons a {
+  color: #7ec8e3;
+}
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa {
+  color: #cccccc;   /* social icons in a neutral light gray */
+}
+
+/* ---- "Follow" button ---- */
+.btn--inverse {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+.btn--inverse:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* ---- Blockquotes, rules, borders ---- */
+blockquote {
+  color: #dddddd;
+  border-left-color: #555;
+}
+hr {
+  border-color: #333;
+}
+
+/* ---- Tables ---- */
+table {
+  color: #f0f0f0;
+}
+th {
+  background-color: #1a1a1a;
+  border-color: #444;
+}
+td, tr {
+  border-color: #333;
+}
+
+/* ---- Code (inline + blocks) ---- */
+code {
+  background-color: #1a1a1a;
+  color: #f4b8c4;
+}
+pre,
+figure.highlight,
+div.highlight,
+.highlighter-rouge .highlight {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+pre code {
+  background-color: transparent;
+  color: #f0f0f0;
+}
+
+/* ---- Archive lists (publications, talks, portfolio) ---- */
+.archive__item-title,
+.archive__item-title a {
+  color: #f0f0f0;
+}
+.archive__subtitle {
+  color: #f0f0f0;
+  border-bottom: 1px solid #333;
+}
+
+/* ---- Table of contents (if used on a page) ---- */
+.toc {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+}
+.toc .nav__title {
+  background-color: #333;
+  color: #fff;
+}
+.toc .toc__menu a {
+  color: #cccccc;
+}
+.toc .toc__menu a:hover {
+  color: #fff;
+}
+
+/* ---- Footer ---- */
+.page__footer {
+  background-color: #0d0d0d;
+  color: #cccccc;
+}
+.page__footer a {
+  color: #7ec8e3;
+}
+.page__footer-copyright,
+.page__footer-follow {
+  color: #cccccc;
+}
+
+/* ---- Search box (if enabled) ---- */
+.search-input {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
