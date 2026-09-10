@@ -11,9 +11,9 @@ title                    : "Maddie Taylor"
 title_separator          : "-"
 name                     : &name "Maddie Taylor"
 description              : &description "PhD Student in Environmental Science, Policy and Management at UC Berkeley"
-url                      : https://maddie43.github.io
+url                      : https://madalyntaylor.github.io
 baseurl                  : ""
-repository               : "Maddie43/Maddie43.github.io"
+repository               : "madalyntaylor/madalyntaylor.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Maddie43"
+  github           : "madalyntaylor"
   google_plus      :
   keybase          :
   instagram        :
