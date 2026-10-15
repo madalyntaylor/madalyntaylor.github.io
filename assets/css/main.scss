@@ -41,8 +41,15 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* ---- Rectangular, larger profile photo ---- */
+/* ---- Profile photo: rectangle + larger ---- */
 .author__avatar img {
-  border-radius: 6px;   /* soft rounded corners; use 0 for a hard rectangle */
-  max-width: 220px;     /* up from the default 175px */
+  border-radius: 6px;   /* soft corners; 0 for a hard rectangle */
+  max-width: 220px;     /* desktop size, up from the default 175px */
+}
+
+/* Bigger photo on phones (default caps it at 36px wide) */
+@media screen and (max-width: 924px) {
+  .author__avatar {
+    width: 100px;
+  }
 }
